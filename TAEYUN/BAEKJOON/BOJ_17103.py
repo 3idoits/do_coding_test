@@ -14,7 +14,7 @@ def get_prime_numbers(size):
     is_prime[0] = False
     is_prime[1] = False
 
-    for i in range(2, size + 1):
+    for i in range(2, int(size ** 0.5) + 1):
         if is_prime[i] == True:
             for j in range(i * 2, size + 1, i):
                 is_prime[j] = False
