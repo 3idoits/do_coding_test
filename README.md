@@ -9,6 +9,47 @@
 
 <br>
 
+### 🙋‍♂️ Member
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <a href="https://github.com/khsrla9806">
+        <img src="https://avatars.githubusercontent.com/u/70641477?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <br />
+        <sub>
+          <b>HOONSUB</b>
+          <br>
+          (khsrla9806)
+        </sub>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/hyunsb">
+        <img src="https://avatars.githubusercontent.com/u/96504592?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <br />
+        <sub>
+          <b>HYUNSOO</b>
+          <br>
+          (hyunsb)
+        </sub>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/cxxxtxxyxx">
+        <img src="https://avatars.githubusercontent.com/u/109710879?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <br />
+        <sub>
+          <b>TAEYUN</b>
+          <br>
+          (cxxxtxxyxx)
+        </sub>
+        <br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
 ### ✋🏻 File Name Convention
 
 ```
