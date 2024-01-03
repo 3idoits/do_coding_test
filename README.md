@@ -9,6 +9,47 @@
 
 <br>
 
+### 🙋‍♂️ Member
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <a href="https://github.com/khsrla9806">
+        <img src="https://avatars.githubusercontent.com/u/70641477?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <br />
+        <sub>
+          <b>HOONSUB</b>
+          <br>
+          (khsrla9806)
+        </sub>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/hyunsb">
+        <img src="https://avatars.githubusercontent.com/u/96504592?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <br />
+        <sub>
+          <b>HYUNSOO</b>
+          <br>
+          (hyunsb)
+        </sub>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/cxxxtxxyxx">
+        <img src="https://avatars.githubusercontent.com/u/109710879?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <br />
+        <sub>
+          <b>TAEYUN</b>
+          <br>
+          (cxxxtxxyxx)
+        </sub>
+        <br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
 ### ✋🏻 File Name Convention
 
 ```
@@ -36,4 +77,10 @@ Ex) [3주차][골드3] - 다른 알고리즘은 적용, 성능 개선
 
 ### 📋 Week
 
-- `1주차` : 2023-12-20 ~ 2023-12-26
+- `1주차` : 2023-12-20 ~ 2023-12-26 ✅
+- `2주차` : 2023-12-27 ~ 2024-01-02
+- `3주차` : 2024-01-03 ~ 2024-01-09
+- `4주차` : 2024-01-10 ~ 2024-01-16
+- `5주차` : 2024-01-17 ~ 2024-01-23
+- `6주차` : 2024-01-24 ~ 2024-01-30
+
