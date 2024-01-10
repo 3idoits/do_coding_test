@@ -15,7 +15,7 @@
     <tr>
       <td align="center" valign="top">
         <a href="https://github.com/khsrla9806">
-        <img src="https://avatars.githubusercontent.com/u/70641477?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <img src="https://avatars.githubusercontent.com/u/70641477?v=4?s=100" width="100px;" alt="훈섭"/>
         <br />
         <sub>
           <b>HOONSUB</b>
@@ -25,7 +25,7 @@
       </td>
       <td align="center" valign="top">
         <a href="https://github.com/hyunsb">
-        <img src="https://avatars.githubusercontent.com/u/96504592?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <img src="https://avatars.githubusercontent.com/u/96504592?v=4?s=100" width="100px;" alt="현수"/>
         <br />
         <sub>
           <b>HYUNSOO</b>
@@ -35,12 +35,23 @@
       </td>
       <td align="center" valign="top">
         <a href="https://github.com/cxxxtxxyxx">
-        <img src="https://avatars.githubusercontent.com/u/109710879?v=4?s=100" width="100px;" alt="Kent C. Dodds"/>
+        <img src="https://avatars.githubusercontent.com/u/109710879?v=4?s=100" width="100px;" alt="태윤"/>
         <br />
         <sub>
           <b>TAEYUN</b>
           <br>
           (cxxxtxxyxx)
+        </sub>
+        <br />
+      </td>
+      <td align="center" valign="top">
+        <a href="https://github.com/inyoung0215">
+        <img src="https://avatars.githubusercontent.com/u/86757234?v=4?s=100" width="100px;" alt="인영"/>
+        <br />
+        <sub>
+          <b>INYOUNG</b>
+          <br>
+          (inyoung0215)
         </sub>
         <br />
       </td>
