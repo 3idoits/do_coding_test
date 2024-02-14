@@ -1,7 +1,12 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
+import java.util.StringTokenizer;
 
 class Main {
 
@@ -9,29 +14,6 @@ class Main {
     private static List<Node>[] map;
     private static boolean[] isVisited;
     private static int[] minDistance;
-
-    private static void dijkstra(int start) {
-        Queue<Node> queue = new PriorityQueue<>();
-        queue.add(new Node(start, 0));
-        minDistance[start] = 0;
-
-        while (!queue.isEmpty()) {
-            Node current = queue.poll();
-            int currentVertex = current.vertex;
-
-            if (isVisited[currentVertex]) continue;
-            isVisited[currentVertex] = true;
-
-            for (Node node : map[currentVertex]) {
-                int nextVertex = node.vertex;
-                int nextWeight = node.weight + minDistance[currentVertex];
-                if (minDistance[nextVertex] > nextWeight) {
-                    minDistance[nextVertex] = nextWeight;
-                    queue.offer(new Node(nextVertex, nextWeight));
-                }
-            }
-        }
-    }
 
     private static class Node implements Comparable<Node> {
         int vertex;
@@ -58,7 +40,7 @@ class Main {
         minDistance = new int[n+1];
 
         Arrays.fill(minDistance, INF);
-        for (int i = 0; i < n + 1; i++) {
+        for (int i = 0; i <= n; i++) {
             map[i] = new ArrayList<>();
         }
 
@@ -76,7 +58,31 @@ class Main {
         int start = Integer.parseInt(tokenizer.nextToken());
         int end = Integer.parseInt(tokenizer.nextToken());
 
-        dijkstra(start);
+        dijkstra(start, end);
         System.out.println(minDistance[end]);
+    }
+
+    private static void dijkstra(int start, int end) {
+        Queue<Node> queue = new PriorityQueue<>();
+        queue.add(new Node(start, 0));
+        minDistance[start] = 0;
+
+        while (!queue.isEmpty()) {
+            Node current = queue.poll();
+            int currentVertex = current.vertex;
+
+            if (isVisited[currentVertex]) continue;
+            isVisited[currentVertex] = true;
+            if (currentVertex == end) return;
+
+            for (Node node : map[currentVertex]) {
+                int nextVertex = node.vertex;
+                int nextWeight = node.weight + minDistance[currentVertex];
+                if (minDistance[nextVertex] > nextWeight) {
+                    minDistance[nextVertex] = nextWeight;
+                    queue.add(new Node(nextVertex, nextWeight));
+                }
+            }
+        }
     }
 }
